@@ -13,3 +13,5 @@ class Solution(object):
             xy.append(x[i])
             xy.append(y[i])
         return xy
+
+O(n) runtime
