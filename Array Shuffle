@@ -1,0 +1,15 @@
+class Solution(object):
+    def shuffle(self, nums, n):
+        """
+        :type nums: List[int]
+        :type n: int
+        :rtype: List[int]
+        """
+        x=nums[:n]
+        y=nums[n:]
+        xy=[]
+       
+        for i in range(n):
+            xy.append(x[i])
+            xy.append(y[i])
+        return xy
